@@ -10,9 +10,7 @@ public interface HospitalRepository extends CrudRepository<Hospital, Integer>{
 	public Optional<Hospital> findById(int Id);
 	
 	public List<Hospital> findAll();
-	
-   
-	
+		
 	public void delete(Hospital hospital);
 	
 	
